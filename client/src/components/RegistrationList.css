@@ -1,0 +1,50 @@
+.registration-list-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+.registration-list-card h2 { color: #18365b; font-size: 23px; margin: 0 0 10px; }
+.registration-list-description { color: #555555; font-size: 14px; margin-bottom: 20px; }
+.table-container { width: 100%; overflow-x: auto; }
+.registration-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.registration-table thead { background-color: #eaf1f8; }
+.registration-table th {
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  color: #18365b;
+  border-bottom: 2px solid #d6e0ec;
+}
+.registration-table td {
+  padding: 14px;
+  color: #333333;
+  border-bottom: 1px solid #eeeeee;
+}
+.registration-table tbody tr:hover { background-color: #f5f8fc; }
+.action-cell { white-space: nowrap; }
+.edit-button, .delete-button {
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 8px;
+  border: 1px solid transparent;
+}
+.edit-button { background-color: #eaf1f8; color: #174ea6; border-color: #174ea6; }
+.edit-button:hover { background-color: #d6e4f5; }
+.delete-button { background-color: #fdecea; color: #b42318; border-color: #b42318; }
+.delete-button:hover { background-color: #fad4d0; }
+.empty-message {
+  padding: 20px;
+  text-align: center;
+  color: #666666;
+  background-color: #f7f8fa;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .registration-list-card { padding: 20px; }
+  .registration-table th, .registration-table td { padding: 10px; font-size: 13px; }
+}
